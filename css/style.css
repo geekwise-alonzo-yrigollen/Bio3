@@ -143,7 +143,7 @@ header {
 /* THE COLUMNS STYLES */
 
 .columnA, .columnB, .columnC {
-    width:384px;
+    width:calc(100%/3);
 }
 
 .columnA h2, .columnB h2, .columnC h2 {
