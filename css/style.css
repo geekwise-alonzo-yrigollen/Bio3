@@ -1,118 +1,120 @@
 /*GLOBAL STYLES*/
 
-html, body{
+html, body {
     height:100%;
-    width:100
+    width:100%;
 }
 
-body{
+body {
     margin:0px;
     padding:0px;
     background-color:#0048b3;
-    font-family:Source Sans Pro', Trebuchet MS, sans-serif;
-    font-size:20px;
-/*    color:FFFFFF !important;*/
+    font-family:'Source Sans Pro', Trebuchet MS, sans-serif;
+    font-size:18px;
+    /*color:#FFFFFF !important;*/
     font-weight:400;
-        
+}
+
+body {
+    color:#ffff33;
 }
 
 h1, h2, h3, h4 {
     margin:0px;
     padding:0px;
-/*    color#ccff66;  GRANNY SMITH APPLE GREEN*/
+    color:#ccff66; /* GRANNY SMITH APPLE GREEN */
     font-weight:600;
 }
 
-p{
-    line-height: 150%;
+
+p {
+    line-height:150%;
     margin:15px 0px;
-    
 }
-b,strong{
+
+b, strong {
     color:#8DC63F;
-    text-decoration:none;
 }
-a{
+
+a {
     color:#8DC63F;
     text-decoration:none;
 }
 
-a:hover{
-/*    color#FF7900; THIS COLOR IS ORANGE*/
+a:hover {
+    color:#FF7900; /* THIS COLOR IS ORANGE */
 }
 
 /*MAIN BODY STYLES*/
 
-.mainWidth{
-    overflow: hidden;
-    margin: 0px auto;
-    width: 1200px;
-    
+.mainWidth 
+    overflow:hidden;
+    margin:0px auto;
+    width:1200px;
 }
 
-/*    HEADER STYLES*/
+/* ========== HEADER STYLES ============= */
 
+header {
+    background-color:#000080;
+}
 
-
-#header{
+#header {
     position:relative;
     padding:15px 0px;
-
 }
 
-#logo a{
-/*    color:#ccff66; leave yourself notes*/
+#logo a {
+    color:#ccff66; /* leave yourself notes */
 }
 
-#logo a:hover{
-    color:#b30000
+#logo a:hover {
+    color:#b30000;
 }
 
-/*    MENU STYLES */
+/* ------- MENU STYLES -------- */
 
-
-#menu{
+#menu {
     position:absolute;
     top:20px;
     right:20px;
 }
 
-#menu ul{
+#menu ul {
     display:inline-block;
 }
 
-#menu li{
+#menu li {
     display:inline;
-    text-align:center;   
+    text-align:center;
 }
 
-#menu li:after{
-    content:'|';
+#menu li:after {
+    content:"|";
     padding:0px 15px;
     font-weight:600;
+    color:#ccff66;
+}
+
+.currentPage {
     color:#FF7900;
 }
 
-.currentPage{
-    color:#FF7900;
-}
-
-.currentPage:hover{
+.currentPage:hover {
     color:#b30000;
 }
 
+
 /*BANNER STYLES */
 
-#bannerHome{
+#bannerHome {
     overflow:scroll;
     padding:150px 0px;
     border-top:3px solid #8DC63F;
     background-size:cover;
-/*    background:url(../images/'#') no-repeat bottom center #b30000;<<<put a pic in here*/
-    
+    background:url(../images/group.jpg) no-repeat bottom center #b30000;
 }
-
-#banner_about{
+#banner_about {
     overflow:scroll;
     padding:0px 0px;
     border-top:3px solid #8DC63F;
@@ -120,158 +122,171 @@ a:hover{
     background:url() no-repeat bottom center #FF7900;
 }
 
-#banner_contact{
+#banner_contact {
     overflow:scroll;
     padding:0px 0px;
     border-top:3px solid #8DC63F;
     background-size:cover;
     background:url() no-repeat bottom center #FF7900;
-    
 }
-.bannerText{
+
+.bannerText {
     font-size:6em;
     color:#FFFFFF;
-    text-shadow:7px 7px 10px #000000
+    text-align:center;
+    text-shadow:7px 7px 10px #000000;
 }
 
-/*THE COLUMNS STYLE*/
 
-.columnA, .columnB, .columnC{
+/* THE COLUMNS STYLES */
+
+.columnA, .columnB, .columnC {
     width:384px;
 }
 
-.columnA hr, .columnB hr, .columnC h2{
+.columnA h2, .columnB h2, .columnC h2 {
     font-size:3.3em;
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.5em;
+    font-weight:700;
+    text-align:center;
+    line-height:1.5em;
 }
 
-.box span{
+.box span {
     background-color:#000080;
-    color:#FFFFFF;
-    display: block;
+    color:#ffffff;
+    display:block;
     font-size:2.5em;
     font-weight:900;
     margin-bottom:16px;
     padding:16px;
-    text-align: center;
+    text-align:center;
     text-transform:uppercase;
-    
+} 
+
+.columnA p, .columnB p, .columnC p {
+    text-align:justify;
 }
 
-/*.columnA p, .columnB p, columnC p{*/
+/*.columnA img, .columnB img, .columnC img {*/
 /*    width:384px;*/
 /*}*/
 
-.columnA, .columnB{
-/*    display:inline-block;*/
+.columnA, .columnB {
+    /*display:inline-block;*/
     float:left;
     margin-right:24px;
 }
 
-.columnC{
+.columnC {
     float:left;
 }
 
-/*ABOUT ME SECTION STYLES*/
 
-.alignLeft{
+/* ABOUT ME SECTION STYLES */
+
+.alignLeft {
     float:left;
     margin-right:24px;
 }
 
-.floatRight{
+.floatRight {
     float:right;
-    margin-left:24px
+    margin-left:24px;
 }
 
-.alignRight{
+.alignRight {
     
 }
 
-#aboutMe{
-    margin: 25px 0px;
+#aboutMe {
+    margin:25px 0px;
 }
 
-/*EXTRA STYLES*/
+/* EXTRA STYLES */
 
-a.button{
-    padding: 15px 20px;
+a.button {
+    padding:15px 20px;
     background-color:#33ccff;
-    letter-spacing:2px; /*THIS IS OPTIONAL*/
-    text-transform: uppercase;
-    font-weight: 700px;
+    letter-spacing:2px; /* THIS IS OPTIONAL */
+    text-transform:uppercase;
+    font-weight:700;
     font-size:1.2em;
     color:#b30000;
-    border-radius: 5px;
+    border-radius:5px;
     margin:10px 0px;
     display:inline-block;
-    transition:background 0.6s linear 0s, color 0.6s linear 0s;
+    transition:background 0.5s linear 0s, color 0.3s linear 0s;
 }
 
-a.button:hover{
+a.button:hover {
     background-color:#ccff66;
     color:#000080;
-
 }
 
-#wufoo-q157so211krd60q{
+#wufoo-q157so211krd60q {
     border:4px solid #FF7900;
-    border-radius: 8px;
+    border-radius:8px;
     width:80%;
-    margin: 30px auto;
+    margin:30px auto;
     padding:30px;
     background-color:#e7f3d6;
 }
 
-.vidContainer{
+.vidContainer {
     width:90%;
     margin:0px auto;
 }
 
-#videoHolder{
+#videoHolder {
     width:100%;
     position:relative;
-    padding-bottom: 56.25%;
+    padding-bottom:56.25%;
     padding-top:30px;
     height:0px;
     overflow:hidden;
-
 }
 
 #videoHolder iframe, .video-container object, .video-container embed {
-    position-absolute;
+    position:absolute;
     top:0px;
     left:0px;
     width:100%;
-    height: 100%;
+    height:100%;
 }
 
 /*FOOTER STYLES*/
 
-footer{
+footer {
     background-color:#B30000;
     border-top:3px dotted #8DC63F;
     padding:60px 0px;
-    overflow: hidden;
-    text-align: center;
+    overflow:hidden;
+    text-align:center;
     margin-top:30px;
 }
 
-.fa{
+.fa {
     background-color:#8DC63F;
     border:4px solid #FFFFFF;
+    border-radius:100%;
     font-size:2em !important;
-    margin: 15px;
+    margin:15px;
     padding:10px;
-    width: 28px;
+    width:28px;
     height:28px;
     color:#FFFFFF;
     transition:background 0.6s linear 0s, color 0.6s linear 0s;
 }
 
-.fa:hover{
+.fa:hover {
     background-color:#ff7900;
 }
+
+
+
+
+
+
+
+
 
