@@ -113,7 +113,7 @@ header {
     padding:150px 0px;
     border-top:3px solid #8DC63F;
     background-size:cover;
-    background:url(../images/group.jpg) no-repeat bottom center #b30000;
+/*    background:url(../images/group.jpg) no-repeat bottom center #b30000;*/
 }
 #banner_about {
     overflow:scroll;
@@ -132,8 +132,9 @@ header {
 }
 
 .bannerText {
-    font-size:6em;
-    color:#FFFFFF;
+    font-size:5.5em;
+    font-family:fantasy;
+    color:gray;
     text-align:center;
     text-shadow:7px 7px 10px #000000;
 }
