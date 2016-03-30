@@ -10,7 +10,7 @@ body {
     padding:0px;
     background-color:#0048b3;
     font-family:'Source Sans Pro', Trebuchet MS, sans-serif;
-    font-size:18px;
+    font-size:20px;
     /*color:#FFFFFF !important;*/
     font-weight:400;
 }
@@ -41,13 +41,13 @@ a {
     text-decoration:none;
 }
 
-a:hover{
+a:hover {
     color:#FF7900; /* THIS COLOR IS ORANGE */
 }
 
 /*MAIN BODY STYLES*/
 
-.mainWidth{ 
+.mainWidth 
     overflow:hidden;
     margin:0px auto;
     width:1200px;
@@ -62,7 +62,6 @@ header {
 #header {
     position:relative;
     padding:15px 0px;
-    
 }
 
 #logo a {
@@ -77,8 +76,8 @@ header {
 
 #menu {
     position:absolute;
-    top:10px;
-    right:30px;
+    top:20px;
+    right:20px;
 }
 
 #menu ul {
@@ -113,7 +112,7 @@ header {
     padding:150px 0px;
     border-top:3px solid #8DC63F;
     background-size:cover;
-/*    background:url(../images/group.jpg) no-repeat bottom center #b30000;*/
+    background:url(../images/group.jpg) no-repeat bottom center #b30000;
 }
 #banner_about {
     overflow:scroll;
@@ -132,9 +131,8 @@ header {
 }
 
 .bannerText {
-    font-size:5.5em;
-    font-family:fantasy;
-    color:gray;
+    font-size:6em;
+    color:#FFFFFF;
     text-align:center;
     text-shadow:7px 7px 10px #000000;
 }
@@ -143,7 +141,7 @@ header {
 /* THE COLUMNS STYLES */
 
 .columnA, .columnB, .columnC {
-    width:calc(100%/3);
+    width:384px;
 }
 
 .columnA h2, .columnB h2, .columnC h2 {
