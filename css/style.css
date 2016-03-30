@@ -133,6 +133,7 @@ header {
 .bannerText {
     font-size:6em;
     color:#FFFFFF;
+    font-family:serif;
     text-align:center;
     text-shadow:7px 7px 10px #000000;
 }
